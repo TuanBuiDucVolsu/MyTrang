@@ -4,11 +4,10 @@
 #include <stdlib.h>
 #include <iomanip>
 using namespace std;
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 void Nhap(int a[][100],int m,int n);
 void Xuat(int a[][100],int m,int n);
 int tinhtong(int a[][100],int m,int n);
-void doicho(int a[][100],int m,int n);
+
 int main(int argc, char** argv) {
 	int a[100][100];
 	int m,n;
